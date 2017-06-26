@@ -118,14 +118,6 @@ function assignResultsToLocalStorage()
   return;
 }
 
-function hideTimer()
-{
-  document.getElementById("timer").style.display = "none";
-  document.getElementById("sign").style.display = "none";
-  document.getElementById("snbut").style.display = "none";
-  $(".color-block").hide();
-}
-
 document.onkeydown = function(e) {
   switch (e.keyCode) {
     case 37:
